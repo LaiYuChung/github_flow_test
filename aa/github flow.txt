@@ -1,0 +1,15 @@
+git:
+git branch f/aa 建立aa名稱的分支
+git checkout f/aa 轉換分支到aa
+
+git commit
+git commit -am '修改 router 標題' commit名稱敘述
+
+
+git merge f/aa --no-ff 合併aa的分支
+
+步驟:
+1.新增branch
+2.新增commit
+3.pull request 發送合併請求
+4.deploy 發布
